@@ -1,0 +1,22 @@
+body{
+    margin:0px;
+    font-family: Roboto,Arial;
+    padding-top: 57px;
+    background-color: white;
+    padding-left:72px;
+}
+
+p{
+    margin:0px;
+    font-family:Roboto,Arial;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+button{
+    cursor: pointer;
+}
+img{
+    width:100%;
+}

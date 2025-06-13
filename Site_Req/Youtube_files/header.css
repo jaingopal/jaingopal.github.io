@@ -1,0 +1,101 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    height:56px;
+    padding:0px 16px 0px 16px;
+
+}
+.left-section{
+    width:169px;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.hamburger-menu{
+    width:40px;
+    padding:16px 8px;
+    box-sizing: border-box;
+    align-items: center;
+    /* 129-93=36 */
+}
+.yt-logo{
+    flex:1;
+    padding:18px 18px;
+}
+.middle-section{
+    border-width: 1px;
+    flex:1;
+    display: flex;
+}
+.search-bar-cont{
+    flex:1;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-bar{
+    width:70%;
+    font-size:16.5px;
+    height:40px;
+    box-sizing: border-box;
+    padding-left:15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 1px;
+    border-right:0px;
+    border-style: solid;
+}
+.search-icon{
+    width:64px;
+    height:40px;
+    display: flex;
+}
+.search-button{
+    height:100%;
+    width:100%;
+    border-width:1px;
+    border-color:rgb(118, 118, 118); 
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+.search-button-image-cont{
+    height:24px;
+    width:24px;
+}
+.voice-search-cont{
+    width:52px;
+}
+.voice-search{
+    width:40px;
+    height:40px;
+    margin-left:12px;
+    border-radius:50%;
+    border-width:0px;
+    padding:0px;
+    background-color: #EFEFEF;
+    box-sizing: border-box;
+    padding:5px;
+}
+.right-section{
+    width:182px;
+    margin-left:29px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-right-section{
+    height: 24px;
+    width:24px
+}
+.my-channel{
+    height:32px;
+    width:32px;
+    display: flex;
+}
